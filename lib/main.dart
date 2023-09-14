@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application/widgets/gacha/gacha_banner_widget.dart';
 import './widgets/menu_widget.dart';
 
 void main() => runApp(const MyApp());
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
               padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
               child: Text('Uma Musume Main Page',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25))),
+          GachaBannerWidget()
         ]),
       ),
     );

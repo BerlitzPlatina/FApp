@@ -13,7 +13,7 @@ class MenuWidget extends StatelessWidget {
           children: <Widget>[
             Expanded(
               child: MenuBar(
-                style: MenuStyle(alignment: Alignment.topCenter),
+                // style: MenuStyle(alignment: Alignment.topCenter),
                 children: <Widget>[
                   SubmenuButton(
                     menuChildren: <Widget>[
