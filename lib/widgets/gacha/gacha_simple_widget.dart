@@ -10,6 +10,8 @@ class GachaSimpleWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(text);
+    return Column(
+      children: [Text(text), Text(text), Text(text)],
+    );
   }
 }
