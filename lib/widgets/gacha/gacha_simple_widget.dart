@@ -11,7 +11,16 @@ class GachaSimpleWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [Text(text), Text(text), Text(text)],
+      children: [
+        Image.asset(
+          './lib/utils/images/lw_reimu.png',
+          width: 58,
+          height: 58,
+          fit: BoxFit.cover,
+        ),
+        Text(text),
+        Text(text)
+      ],
     );
   }
 }
