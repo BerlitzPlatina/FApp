@@ -15,13 +15,19 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
         ),
-        body: Column(children: [
+        body: ListView(children: [
           MenuWidget(),
           Padding(
               padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
               child: Text('Uma Musume Main Page',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25))),
-          GachaBannerWidget()
+          GachaBannerWidget(),
+          GachaBannerWidget(),
+          GachaBannerWidget(),
+          GachaBannerWidget(),
+          GachaBannerWidget(),
+          GachaBannerWidget(),
+          GachaBannerWidget(),
         ]),
       ),
     );
