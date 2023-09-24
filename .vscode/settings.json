@@ -1,5 +1,10 @@
 {
     "cSpell.enableFiletypes": [
-        "!dart"
+        // "!dart"
+    ],
+    "cSpell.words": [
+        "Gacha",
+        "LTRB",
+        "Musume"
     ]
 }

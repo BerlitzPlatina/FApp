@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application/widgets/characters/character.dart';
 
 /// Flutter code sample for [MenuAcceleratorLabel].
 class MenuWidget extends StatelessWidget {
@@ -19,10 +20,10 @@ class MenuWidget extends StatelessWidget {
                     menuChildren: <Widget>[
                       MenuItemButton(
                         onPressed: () {
-                          showAboutDialog(
-                            context: context,
-                            applicationName: 'MenuBar Sample',
-                            applicationVersion: '1.0.0',
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const CharacterWidget()),
                           );
                         },
                         child: const MenuAcceleratorLabel('&About'),
