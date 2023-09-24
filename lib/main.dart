@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
+          actions: [],
         ),
         body: ListView(children: [
           MenuWidget(),
