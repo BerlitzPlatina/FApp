@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application/widgets/gacha/gacha_banner_widget.dart';
-import './widgets/menu_widget.dart';
+import 'widgets/menu/menu_widget.dart';
 
 void main() => runApp(const MyApp());
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../menu_widget.dart';
+import '../menu/menu_widget.dart';
 
 class CharacterWidget extends StatelessWidget {
   const CharacterWidget({super.key});
