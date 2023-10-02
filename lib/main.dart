@@ -21,12 +21,68 @@ class MyApp extends StatelessWidget {
           const MenuWidget(),
           TitlePageWidget(),
           GachaBannerWidget(),
-          GachaBannerWidget(),
-          GachaBannerWidget(),
-          GachaBannerWidget(),
-          GachaBannerWidget(),
-          GachaBannerWidget(),
-          GachaBannerWidget(),
+          TitlePageWidget(text: 'Database'),
+          GridView.count(
+            primary: false,
+            padding: const EdgeInsets.all(20),
+            shrinkWrap: true,
+            crossAxisSpacing: 10,
+            mainAxisSpacing: 10,
+            crossAxisCount: 3,
+            children: <Widget>[
+              Container(
+                padding: const EdgeInsets.all(8),
+                height: 120,
+                width: 100,
+                color: Colors.teal[100],
+                child: Column(
+                  children: [
+                    Image.asset(
+                      './lib/utils/images/lw_reimu.png',
+                      width: 58,
+                      height: 58,
+                      fit: BoxFit.cover,
+                    ),
+                    Text('text')
+                  ],
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(8),
+                height: 130,
+                width: 100,
+                color: Colors.teal[100],
+                child: Column(
+                  children: [
+                    Image.asset(
+                      './lib/utils/images/lw_reimu.png',
+                      width: 58,
+                      height: 58,
+                      fit: BoxFit.cover,
+                    ),
+                    Text('text')
+                  ],
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(8),
+                height: 120,
+                width: 100,
+                color: Colors.teal[100],
+                child: Column(
+                  children: [
+                    Image.asset(
+                      './lib/utils/images/lw_reimu.png',
+                      width: 58,
+                      height: 58,
+                      fit: BoxFit.cover,
+                    ),
+                    Text('text')
+                  ],
+                ),
+              ),
+            ],
+          )
         ]),
       ),
     );

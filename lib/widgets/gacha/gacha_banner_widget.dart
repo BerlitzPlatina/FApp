@@ -22,7 +22,7 @@ class GachaBannerWidget extends StatelessWidget {
             GachaSimpleWidget(text: 'dayla1'),
             GachaSimpleWidget(
               text: 'day la 2',
-            )
+            ),
           ],
         )
       ]),
